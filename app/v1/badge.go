@@ -51,7 +51,7 @@ func BadgesGET(md common.MethodData) common.CodeMessager {
 
 type badgeMembersData struct {
 	common.ResponseBase
-	Members []userData `json:"members"`
+	Members []userData `json:"users"`
 }
 
 // BadgeMembersGET retrieves the people who have a certain badge.
